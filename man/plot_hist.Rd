@@ -4,7 +4,7 @@
 \alias{plot_hist}
 \title{plot histogram}
 \usage{
-plot_hist(x, breaks, freq)
+plot_hist(x, breaks, freq, variable)
 }
 \arguments{
 \item{x}{data to plot}
@@ -12,6 +12,8 @@ plot_hist(x, breaks, freq)
 \item{breaks}{a vector giving the breakpoints between histogram cells, as of graphics::hist}
 
 \item{freq}{logical for plotting frequencies, as of graphics::hist}
+
+\item{variable}{character column of faithful}
 }
 \description{
 function to plot histogram
