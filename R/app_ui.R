@@ -12,9 +12,7 @@ app_ui <- function(request) {
     fluidPage(  # Application title
       titlePanel("Old Faithful Geyser Data"),
       # Sidebar with a slider input for number of bins
-      # mainPanel(
-        mod_faithful_histogram_ui("hist")
-      # )
+      mod_faithful_histogram_ui("hist")
     )
   )
 }
@@ -32,7 +30,6 @@ golem_add_external_resources <- function() {
     "www",
     app_sys("app/www")
   )
-
   tags$head(
     favicon(),
     bundle_resources(
