@@ -8,6 +8,7 @@ Imports:
     config (>= 0.3.1),
     golem (>= 0.3.3),
     graphics,
+    pkgload,
     shiny (>= 1.7.2)
 Encoding: UTF-8
 LazyData: true
@@ -15,6 +16,7 @@ RoxygenNote: 7.2.1
 URL: https://github.com/GuidoMaggio/ShinyProdWorkshop
 BugReports: https://github.com/GuidoMaggio/ShinyProdWorkshop/issues
 Suggests: 
+    rsconnect,
     spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
